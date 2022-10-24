@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+	font-family: "Oooh Baby", cursive;
+	font-size: 18px;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 500px;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: 2px grey;
+	font-size: 15px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: darkgray;
+	padding: 5px;
+}
